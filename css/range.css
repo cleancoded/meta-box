@@ -1,0 +1,9 @@
+.cleancoded-range.cleancoded-range,
+.cleancoded-range.cleancoded-range:hover {
+	vertical-align: middle;
+	padding: 0;
+	border: none;
+}
+.cleancoded-output {
+	margin-left: 8px;
+}

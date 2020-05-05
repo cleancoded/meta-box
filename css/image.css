@@ -1,0 +1,66 @@
+.cleancoded-image-wrapper .cleancoded-uploaded:empty {
+	display: none;
+}
+.cleancoded-image-wrapper .cleancoded-uploaded:not(:empty) {
+	display: block;
+	margin: -8px 0 0 -8px;
+	overflow: hidden;
+}
+/* Re-add WP core UI style to make sure frontend works */
+.cleancoded-image-item {
+	position: relative;
+	float: left;
+	padding: 8px;
+	margin: 0;
+	color: #444;
+	cursor: pointer;
+	list-style: none;
+	text-align: center;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 25%;
+	box-sizing: border-box;
+}
+.cleancoded-image-item.thumbnail {
+	width: 150px;
+}
+.cleancoded-image-item.medium {
+	width: 300px;
+}
+.cleancoded-image-item.large {
+	width: 1024px;
+}
+
+.cleancoded-image-actions {
+	position: absolute;
+	z-index: 2;
+	right: 12px;
+	top: 12px;
+	opacity: 0;
+	transition: opacity .2s;
+	color: #fff;
+}
+.cleancoded-image-edit,
+.cleancoded-image-delete {
+	color: inherit;
+	text-decoration: none;
+}
+.cleancoded-image-overlay {
+	position: absolute;
+	z-index: 1;
+	top: 8px;
+	bottom: 8px;
+	left: 8px;
+	right: 8px;
+	background: #000;
+	opacity: 0;
+	transition: opacity .2s;
+}
+.cleancoded-image-item:hover .cleancoded-image-actions {
+	opacity: 1;
+}
+.cleancoded-image-item:hover .cleancoded-image-overlay {
+	opacity: .6;
+}

@@ -1,0 +1,18 @@
+.cleancoded-taxonomy-add,
+.cleancoded-taxonomy-add-form {
+	margin-top: 6px;
+}
+.cleancoded-taxonomy-add-button {
+	padding: 0;
+	border: 0;
+	background: none;
+	color: #0073aa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+.cleancoded-taxonomy-add-button:hover {
+	color: #00a0d2;
+}
+.cleancoded-taxonomy-add-form.cleancoded-hidden {
+	display: none;
+}

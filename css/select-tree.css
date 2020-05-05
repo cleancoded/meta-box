@@ -1,0 +1,7 @@
+.cleancoded-select-tree {
+	display: inline-block;
+}
+
+.cleancoded-select-tree.hidden {
+	display: none;
+}

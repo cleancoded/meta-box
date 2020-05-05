@@ -1,0 +1,13 @@
+.cleancoded-select {
+	min-width: 160px;
+}
+.cleancoded-select.cleancoded-select[multiple] {
+	padding: 0;
+}
+.cleancoded-select option {
+	padding: 4px 8px;
+}
+.cleancoded-select-all-none {
+	display: block;
+	margin-top: 5px;
+}

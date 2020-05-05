@@ -1,0 +1,11 @@
+.cleancoded-oembed-wrapper .spinner {
+	float: none;
+	vertical-align: top;
+	display: inline-block;
+}
+.cleancoded-embed-media {
+	margin-top: 1em;
+}
+.cleancoded-embed-media iframe {
+	max-width: 100%;
+}

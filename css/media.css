@@ -1,0 +1,50 @@
+.cleancoded-media-list:empty {
+	display: none;
+}
+.cleancoded-media-list:not(:empty) {
+	display: block;
+	margin: -8px 0 0 -8px;
+	overflow: hidden;
+}
+.cleancoded-media-item.attachment {
+	float: none;
+	text-align: left;
+	width: auto;
+	overflow: hidden;
+}
+.cleancoded-media-preview {
+	width: 60px;
+	float: left;
+	position: relative;
+}
+.cleancoded-media-info {
+	margin-left: 65px;
+}
+.cleancoded-media-title {
+	font-weight: bold;
+	text-decoration: none;
+}
+.cleancoded-media-name {
+	margin: 0 0 4px;
+}
+.cleancoded-media-actions {
+	margin: 0;
+}
+.cleancoded-edit-media,
+.cleancoded-remove-media {
+	font-size: 11px;
+	color: inherit;
+	text-decoration: none;
+}
+.cleancoded-media-actions .dashicons {
+	font-size: 1em;
+	width: 1em;
+	height: 1em;
+	vertical-align: middle;
+}
+
+/* Add more button */
+.cleancoded-media-view .cleancoded-add-media {
+	padding-left: 5px;
+	margin-right: 5px;
+}

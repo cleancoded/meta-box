@@ -1,0 +1,19 @@
+.cleancoded-text_list-non-cloneable > .cleancoded-input,
+.cleancoded-text_list-clone {
+	display: flex;
+	flex-wrap: wrap;
+}
+.cleancoded-text_list-non-cloneable > .cleancoded-input > label,
+.cleancoded-text_list-clone > label {
+	margin: 0 10px 10px 0;
+}
+.cleancoded-text_list-non-cloneable > .cleancoded-input > label:last-child,
+.cleancoded-text_list-clone > label:last-child {
+	margin-right: 0;
+}
+
+.cleancoded-text-list-label {
+	font-weight: 600;
+	display: block;
+	margin-bottom: 5px;
+}

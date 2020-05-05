@@ -1,0 +1,23 @@
+.cleancoded-toggle-all-wrapper {
+	margin-top: 0;
+}
+.cleancoded-input-list {
+	margin: 0;
+	line-height: 1.8;
+}
+.cleancoded-input-list .cleancoded-input-list {
+	margin-left: 20px;
+}
+.cleancoded-input-list li {
+	list-style: none;
+	margin-bottom: 0;
+}
+.cleancoded-input-list.cleancoded-inline {
+	line-height: inherit;
+}
+.cleancoded-input-list.cleancoded-inline li {
+	display: inline-block;
+}
+.cleancoded-input-list.cleancoded-inline li:not(:last-child) {
+	margin-right: 20px;
+}
